@@ -11,9 +11,12 @@ li + button , button{
 li + button{
     color: white;
     background-color: red;
+    display: inline;
 }
 
 li{
+    flex: 1;
+    max-width: 150px;
     display: inline;
     list-style: none;
     margin: 5px;
